@@ -1,0 +1,48 @@
+tr {
+	transition: background-color 0.15s ease;
+	border-bottom: 1px solid #edf2f7;
+}
+
+tr:last-child {
+	border-bottom: none;
+}
+
+tr:hover {
+	background-color: #f1f5f9 !important;
+}
+
+td {
+	padding: 12px 16px;
+	font-size: 14px;
+	color: #4a5568;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-right: 1px solid #edf2f7;
+}
+td:last-child {
+	border-right: none;
+}
+
+.user-id {
+	font-weight: bold;
+	color: #000000;
+	width: 40px;
+	text-align: center;
+}
+
+.email, .country, .city {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.country {
+	width: 70px;
+}
+.email {
+	width: 250px;
+}
+
+.country {
+	text-align: left;
+}

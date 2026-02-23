@@ -1,0 +1,50 @@
+.table-header {
+	background-color: #f8fafc;
+	user-select: none !important;
+}
+
+.table-header th {
+	padding: 16px;
+	text-align: left;
+	font-size: 14px;
+	color: #64748b;
+	border-bottom: 2px solid #edf2f7;
+	transition: background 0.2s;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.table-header th.full-name,
+.table-header th.age,
+.table-header th.gender,
+.table-header th.phone-number {
+	cursor: pointer;
+}
+
+.table-header th.full-name:hover,
+.table-header th.age:hover,
+.table-header th.gender:hover,
+.table-header th.phone-number:hover {
+	color: #2563eb;
+}
+
+.table-header th:hover {
+	background: #f1f5f9;
+}
+
+.icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+	margin-left: 6px;
+	width: 18px;
+}
+
+.icon svg {
+	width: 16px !important;
+	height: 16px !important;
+	display: block;
+}
+
